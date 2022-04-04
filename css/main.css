@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6Ph1Ct7VLOYGkGyfyFT2Od_kUyd2sZNynQ&usqp=CAU")
+}
+h1 {
+    color: rgb(10, 92, 53);
+    text-align: center;
+
+}
+h2{
+    text-align: center; 
+}
+h3{
+    color: rgb(10, 92, 53);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+table{
+    margin: 0 auto;
+}
+.currCell {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: rgb(134, 192, 134);
+    color: darkgreen;
+    border: 2px white;
+    font-size:400%;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.currCell:hover {
+    background-color: rgb(120, 156, 127);
+
+}
+
+button {
+    width: 180px;
+    background-color: rgba(0, 128, 0, 0.883);
+    font-weight: bolder;
+    font-size: larger;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+    border-color: rgb(4, 151, 95);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(1, 134, 63) inset, 0 0 0 0 rgb(0, 255, 157);
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgb(5, 116, 60) inset, 0 0 10px 4px rgb(255, 255, 255);
+    color: rgb(0, 139, 86);
+}
+
+.wrong{
+    background-color: red !important;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: aquamarine;
+    padding: 4px;
+    transition: blue 0.5s ease;
+    transform: translate(-50%,-50%);
+    transition-duration: opacity 2s ease;
+
+}
